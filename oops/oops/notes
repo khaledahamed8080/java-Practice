@@ -1,0 +1,49 @@
+Object-Oriented Programming (OOP) has several key features that distinguish it from other programming paradigms. Here are the main features of OOP:
+
+1. Encapsulation
+Definition: Encapsulation is the bundling of data (attributes) and methods (functions) that operate on the data into a single unit called an object.
+Benefits: It restricts direct access to some components, promoting data hiding and reducing the risk of unintended interference.
+2. Abstraction
+Definition: Abstraction involves simplifying complex reality by modeling classes based on essential characteristics while hiding unnecessary details.
+Benefits: It allows developers to focus on interactions at a higher level, making the code easier to manage and understand.
+3. Inheritance
+Definition: Inheritance is a mechanism that allows a new class (subclass) to inherit attributes and methods from an existing class (superclass).
+Benefits: It promotes code reusability and establishes a natural hierarchy between classes, making it easier to maintain and extend code.
+4. Polymorphism
+Definition: Polymorphism allows methods to take on different forms based on the object that calls them. This can be achieved through method overriding (in subclasses) and method overloading (same method name with different parameters).
+Benefits: It enables flexibility and the ability to use the same interface for different underlying forms (data types).
+5. Classes and Objects
+Classes: A class is a blueprint for creating objects. It defines the structure (attributes) and behavior (methods) that the objects created from it will have.
+Objects: An object is an instance of a class. It represents a specific entity with defined attributes and behaviors.
+6. Message Passing
+Definition: Objects communicate with one another through message passing, where a message is sent to invoke a method on an object.
+Benefits: This promotes loose coupling and high cohesion in code, allowing for more modular and maintainable systems.
+7. Constructor
+A constructor in Java is a special method used to initialize objects. Unlike regular methods, constructors are called when an object is created, and they set up the initial state of the object by assigning values to its fields or performing other setup tasks.
+
+->Key Characteristics of Constructors:
+Name:
+The name of the constructor must be the same as the class name.
+It does not have a return type (not even void).
+
+Automatic Invocation:
+A constructor is automatically called when an object of the class is instantiated using the new keyword.
+Types of Constructors: Java supports two main types of constructors: Default Constructor,Parameterized Constructor
+
+1. Default Constructor:
+A default constructor is provided by Java if no constructors are defined in a class. If defined explicitly, it is a constructor without parameters.
+
+Implicit Default Constructor: If you don't define any constructor in your class, Java automatically provides a default constructor that initializes the object with default values (like 0 for integers, null for objects, etc.).
+
+2. Parameterized Constructor:
+A parameterized constructor is a constructor that takes arguments (parameters) and allows you to initialize the object with specific values.
+
+3. Constructor Overloading:
+In Java, constructors can be overloaded, meaning you can have more than one constructor in a class, as long as they have different parameter lists. This allows flexibility in how objects are initialized.
+
+4. this() and super() in Constructors:
+this(): Refers to the current class's constructor and can be used to call one constructor from another within the same class.
+super(): Refers to the parent class's constructor and is used to initialize the parent class when an object of a subclass is created. If not explicitly used, Java implicitly calls the no-argument constructor of the superclass.
+
+5. Copy Constructor:
+Java does not provide a built-in copy constructor like C++. However, you can manually create a constructor to copy data from one object to another.
