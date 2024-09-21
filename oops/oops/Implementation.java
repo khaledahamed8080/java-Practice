@@ -69,7 +69,7 @@ public class Implementation{
 //     this.age=s1.age;
 //     this.name=s1.name;
 
-//   }
+// //}
 //   public  void  getInfo(){
 //     System.out.println("AGE IS:"+age+ " AND NAME IS:"+name);
 //   }
