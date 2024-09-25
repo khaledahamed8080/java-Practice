@@ -8,7 +8,7 @@ public class checkingAccount extends account{
     }
 
     @Override
-    protected void withdraw(double amount){
+    public void withdraw(double amount){
     if (amount<=getbalance()+OverdraftLimit){
         deposit(-amount);
         System.out.println("widrew $"+amount+" with the over draft limit");

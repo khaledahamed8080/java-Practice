@@ -18,7 +18,7 @@ public abstract class account {
         }
     }
 
-    protected void withdraw(double amount){
+    public void withdraw(double amount){
         if(amount<=balance){
             balance-=amount;
             System.out.println("WITHDREW $ "+amount+" FROM THE ACCOUNT");

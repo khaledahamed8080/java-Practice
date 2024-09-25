@@ -1,4 +1,6 @@
-package AccessSpecifiers.Project.Account;
+package AccessSpecifiers.Project.Transactions;
+
+import AccessSpecifiers.Project.Account.account;
 
 public class transactions {
     public void deposit(account Acccount,double amount){
