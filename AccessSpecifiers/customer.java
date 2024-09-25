@@ -1,4 +1,4 @@
-package AccessSpecifiers.Project.Bank;
+package AccessSpecifiers;
 
 public class customer {
     private String name;
