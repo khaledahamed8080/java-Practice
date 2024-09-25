@@ -1,6 +1,5 @@
 package AccessSpecifiers.Project;
 
-import AccessSpecifiers.customer;
 import AccessSpecifiers.Project.Account.checkingAccount;
 import AccessSpecifiers.Project.Account.savingsAccount;
 import AccessSpecifiers.Project.Bank.accountsTeam;

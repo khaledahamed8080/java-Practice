@@ -1,4 +1,4 @@
-package AccessSpecifiers;
+package AccessSpecifiers.Project;
 
 public class customer {
     private String name;
