@@ -47,3 +47,14 @@ super(): Refers to the parent class's constructor and is used to initialize the 
 
 5. Copy Constructor:
 Java does not provide a built-in copy constructor like C++. However, you can manually create a constructor to copy data from one object to another.
+
+8. static in Java:
+The static keyword in Java is used for memory management. It can be applied to variables, methods, blocks, and nested classes. The core idea behind static is that it allows a member to belong to the class itself, rather than to instances (objects) of the class. This means that:
+
+->Static variables are shared across all instances of a class.
+->Static methods can be called without creating an object of the class.
+->Static blocks are executed when the class is loaded into memory.
+(i) Key Characteristics of static:
+->Static variables are shared across all objects of the class and get memory only once in the class area when the class is loaded.
+->Static methods can access static variables and static methods directly, but not non-static members.
+Static blocks are used to initialize static data members and are executed before the main method.
