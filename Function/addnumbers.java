@@ -1,4 +1,4 @@
-package Functions;
+package Function;
 //Enter 3 numbers from the user & make a function to print their average.
 
 class Maths{
@@ -8,7 +8,7 @@ class Maths{
      System.out.println("THE AVERAGE IS:"+sum);
     }
 }
-public class addnumbers {
+public class addnumbers{
     public static void main(String[] args) {
         Maths m=new Maths();
         m.add(3,7,5);
