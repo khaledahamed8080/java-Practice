@@ -11,6 +11,6 @@ class Maths{
 public class addnumbers{
     public static void main(String[] args) {
         Maths m=new Maths();
-        m.add(3,7,5);
+        m.add(3,7,5); 
     } 
 }
